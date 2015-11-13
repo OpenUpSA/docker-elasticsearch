@@ -8,4 +8,4 @@ To use:
 
     docker build -t code4sa/elasticsearch https://github.com/Code4SA/docker-elasticsearch.git
     sudo mkdir -p /var/elasticsearch/data
-    docker run -d --restart=always -p 9200:9200 -p 9300:9300 -v /var/elasticsearch/data:/usr/share/elasticsearch/data elasticsearch
+    docker run -d --restart=always -p 9200:9200 -p 9300:9300 -v /var/elasticsearch/data:/usr/share/elasticsearch/data code4sa/elasticsearch
