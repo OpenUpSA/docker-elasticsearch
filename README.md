@@ -6,6 +6,6 @@ This is based on the [main ElasticSearch Dockerfile](https://hub.docker.com/_/el
 
 To use:
 
-    docker build https://github.com/Code4SA/docker-elasticsearch.git
+    docker build -t c4sa-elasticsearch https://github.com/Code4SA/docker-elasticsearch.git
     sudo mkdir -p /var/elasticsearch/data
     docker run -d --restart=always -p 9200:9200 -p 9300:9300 -v /var/elasticsearch/data:/usr/share/elasticsearch/data elasticsearch
