@@ -1,4 +1,4 @@
-FROM dockerfile/elasticsearch:1
+FROM elasticsearch:1
 MAINTAINER Greg Kempe <greg@code4sa.org>
 
 # install the attachment plugin
